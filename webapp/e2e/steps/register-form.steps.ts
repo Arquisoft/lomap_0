@@ -27,9 +27,10 @@ defineFeature(feature, test => {
     let username:string;
 
     given('An unregistered user', () => {
-      email = "newuser@test.com"
-      username = "newuser"
+      email = "patricia@test.com"
+      username = "Patricia"
     });
+    
 
     when('I fill the data in the form and press submit', async () => {
       await expect(page).toFillForm('form[name="register"]', {
