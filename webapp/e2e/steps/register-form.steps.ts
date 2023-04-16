@@ -27,8 +27,8 @@ defineFeature(feature, test => {
     let username:string;
 
     given('An unregistered user', () => {
-      email = "patricia@test.com"
-      username = "Patricia"
+      email = "newuser@test.com"
+      username = "newuser"
     });
     
 
