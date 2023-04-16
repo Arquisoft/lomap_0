@@ -4,9 +4,4 @@ export default {
         "^.+\\.tsx?$": "ts-jest"
     },
     collectCoverage: true,
-    collectCoverageFrom:[
-    '**/*.{js,jsx,ts,tsx}',
-    '!**/node_modules/**',
-    '!**/vendor/**',
-    ]
 }
